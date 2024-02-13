@@ -1,0 +1,35 @@
+
+Error starting at line : 2 in command -
+create table employee_details
+Error report -
+ORA-00906: missing left parenthesis
+00906. 00000 -  "missing left parenthesis"
+*Cause:    
+*Action:
+
+Error starting at line : 2 in command -
+create table employee details
+Error report -
+ORA-00922: missing or invalid option
+00922. 00000 -  "missing or invalid option"
+*Cause:    
+*Action:
+
+Error starting at line : 2 in command -
+create table empdetails
+Error report -
+ORA-00906: missing left parenthesis
+00906. 00000 -  "missing left parenthesis"
+*Cause:    
+*Action:
+
+Error starting at line : 2 in command -
+ create table empdetails
+Error report -
+ORA-00906: missing left parenthesis
+00906. 00000 -  "missing left parenthesis"
+*Cause:    
+*Action:
+
+Table EMPDETAILS created.
+
