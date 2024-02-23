@@ -1,0 +1,15 @@
+create table tb1(fn varchar2(40),ln varchar2(40));
+create table tb2(fn varchar2(40),ln varchar2(40));
+insert into tb1 values('Vaish','Pandit');
+insert into tb2 values('Vaish','Pandit');
+insert into tb1 values('Rajesh','Rao');
+insert into tb2 values('Rajesh','Rao');
+insert into tb1 values('Rani','Ghorpade');
+insert into tb1 values('Raj','Rao');
+insert into tb2 values('Rajavi','Rao');
+select * from tb1;
+select * from tb2;
+select * from tb1 union select * from tb2;
+select * from tb1 union all select * from tb2;
+select * from tb1 intersect select * from tb2;
+select * from tb1 minus select * from tb2;
